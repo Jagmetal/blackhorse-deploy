@@ -3,12 +3,16 @@ import Slider from 'react-slick';
 import '../AboutUs.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import photo1 from '/assets/img1.jpg'
+import photo2 from '/assets/img2.jpg'
+import photo3 from '/assets/img3.jpg'
+import photo4 from '/assets/img6.jpg'
 
 const images = [
-  'blackhorse-deploy/assets/img1.jpg',
-  'blackhorse-deploy/assets/img2.jpg',
-  'blackhorse-deploy/assets/img3.jpg',
-  'blackhorse-deploy/assets/img6.jpg',
+  photo1,
+  photo2,
+  photo3,
+  photo4,
 ];
 
 const AboutUs = () => {
