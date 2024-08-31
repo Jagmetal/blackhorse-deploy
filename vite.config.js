@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: "https://jagmetal.github.io/blackhorse-deploy/",
+  base: "/blackhorse-deploy/",
 });
